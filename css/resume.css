@@ -1,0 +1,40 @@
+body {
+    margin: 0; 
+    padding: 0;
+    background-color: #CF112D;
+  }
+
+  h1 {
+      color: white;
+    margin-top: 0;
+    text-align: center;
+}
+
+#header{
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 30px;
+    position: sticky;
+      top:0;
+  
+  }
+  
+  #footer{
+      position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  
+  }
+
+  iframe {
+    display: block;
+    border-style:none;
+    margin: 0 auto;
+}
+
+
