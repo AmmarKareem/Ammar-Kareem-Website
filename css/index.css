@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html, body {
     margin: 0; 
     padding: 0;
@@ -6,20 +9,43 @@ html, body {
 
 a:link {
     margin-bottom: 10%;
-    display: inline-block;
+    display: block;
   color: white;
   background-color: transparent;
   text-decoration: none;
-    font-size: 500%;
+    font-size: 6vw;
     border: 5px solid white;
+    white-space: nowrap;
+    
+
+    
 }
 a:visited {
     margin-bottom: 10%;
-    display: inline-block;
+    display: block;
   color: white;
   background-color: transparent;
   text-decoration: none;
   border: 5px solid white;
+
+  
+  
+}
+
+a:hover{
+  color:#28469E;
+  border: 5px solid #28469E;
+  
+  
+}
+
+#left a{
+  margin-left: 10%;
+}
+
+
+#right a {
+  margin-right: 10%;
 }
 
 img {
@@ -28,6 +54,8 @@ img {
     margin-right: auto;
     width: 80%;
     border: 5px solid black;
+    
+    
   }
 
 h1 {
@@ -42,34 +70,41 @@ h1 {
 }
 
 #left{
+  word-wrap: break-word;
     float:left;
     width:30%;
     text-align: center;
+    
     
     
 }
 
 #middle{
     float:left;
-    width:40%
+    width:40%;
+    
     
 }
 
 #right{
-    float: left;
+    float: right;
     width: 30%;
     text-align: center;
+    
 }
 
-
+/* #main{
+  overflow: auto;
+  border: 1px solid white;
+} */
 
 #header{
   text-align: center;
   background: black;
   color: white;
-  font-size: 30px;
+  font-size: 200%;
   position: sticky;
-    top:0;
+  top:0;
 
 }
 
@@ -88,13 +123,6 @@ h1 {
 
 
 
-a:hover{
-    color: blue;
-}
 
 
-/* #aboutMe,#projects,#resume,#linkedin,#github,#email {
-    margin-bottom: 10%;
-    text-align: center;
-    font-size: 60px;
-} */
+
