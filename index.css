@@ -9,15 +9,8 @@
   .desktopOnly {
     display: none;
   }
-  
-  #header{
-    text-align: center;
-    background: green;
-    color: white;
-    font-size: 2vw;
-    position: sticky;
-    top:0;
-  
+  #header h1{
+    font-size:150%;
   }
 }
 
@@ -128,7 +121,7 @@
   text-align: center;
   background: black;
   color: white;
-  font-size: 2vw;
+  font-size: 200%;
   position: sticky;
   top:0;
 
