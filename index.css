@@ -239,24 +239,14 @@
 }
 
 
-
-#triviaSubHeading h1, #quotesSubHeading h1{
-    text-align: left;
+.projectTitle{
+  text-align: left;
     margin-left: 1vw;
     margin-bottom: 0%;
-  
 }
 
-#triviaSubHeading a:link, #quotesSubHeading a:link {
-  text-align: center;
-  margin-left: 1vw;
-  margin-bottom: 0%;
-  font-size: 4vw;
-  border: 0px;
-  background-color:#cf112d;
-  
-}
-#triviaSubHeading a:visited, #quotesSubHeading a:visited {
+
+.projectTitle a:link{
   text-align: center;
   margin-left: 1vw;
   margin-bottom: 0%;
@@ -265,28 +255,41 @@
   background-color:#cf112d;
 }
 
-#triviaSubHeading a:hover, #quotesSubHeading a:hover{
+
+.projectTitle a:visited{
+  text-align: center;
+  margin-left: 1vw;
+  margin-bottom: 0%;
+  font-size: 4vw;
+  border: 0px;
+  background-color:#cf112d;
+}
+
+
+.projectTitle a:hover{
   background-color:#cf112d;
   color:  #28469E;
-
-
 }
 
-#triviaDiv,#quotesDiv{
-    border: 3px solid black;
+
+.projectContent{
+  border: 3px solid black;
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: left;
     font-size: smaller;
 }
 
-#triviaDiv img, #quotesDiv img{
+
+.projectContent img{
   display: block;
   margin: 0 auto;
   width: 60%;
 }
 
-#triviaDiv a:link, #quotesDiv a:link {
+
+
+.projectContent a:link{
   text-align: left;
   margin-left: 1vw;
   margin-bottom: 0%;
@@ -295,6 +298,8 @@
   background-color:#28469E;
   
 }
+
+
 
 #githubLink h1{
     text-align: left;
@@ -441,16 +446,7 @@ text-decoration: none;
   
   }
 
-  #triviaSubHeading a:link, #quotesSubHeading a:link {
-    text-align: center;
-    margin-left: 1vw;
-    margin-bottom: 0%;
-    font-size: 4vw;
-    border: 0px;
-    background-color:#28469E;
-    
-  }
-  #triviaSubHeading a:visited, #quotesSubHeading a:visited {
+  .projectTitle a:link{
     text-align: center;
     margin-left: 1vw;
     margin-bottom: 0%;
@@ -458,13 +454,26 @@ text-decoration: none;
     border: 0px;
     background-color:#28469E;
   }
+
+
+
+  .projectTitle a:visited{
+    text-align: center;
+    margin-left: 1vw;
+    margin-bottom: 0%;
+    font-size: 4vw;
+    border: 0px;
+    background-color:#28469E;
+  }
+
+
   
-  #triviaSubHeading a:hover, #quotesSubHeading a:hover{
+  .projectTitle a:hover{
     background-color:#28469E;
     color:  white;
-  
-  
   }
+
+ 
 
   
 }
