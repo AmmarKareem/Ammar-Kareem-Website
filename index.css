@@ -441,13 +441,31 @@ text-decoration: none;
   
   }
 
-  #triviaSubHeading h1{
-    text-align: left;
+  #triviaSubHeading a:link, #quotesSubHeading a:link {
+    text-align: center;
     margin-left: 1vw;
     margin-bottom: 0%;
+    font-size: 4vw;
+    border: 0px;
+    background-color:#28469E;
     
-
   }
+  #triviaSubHeading a:visited, #quotesSubHeading a:visited {
+    text-align: center;
+    margin-left: 1vw;
+    margin-bottom: 0%;
+    font-size: 4vw;
+    border: 0px;
+    background-color:#28469E;
+  }
+  
+  #triviaSubHeading a:hover, #quotesSubHeading a:hover{
+    background-color:#28469E;
+    color:  white;
+  
+  
+  }
+
   
 }
 
