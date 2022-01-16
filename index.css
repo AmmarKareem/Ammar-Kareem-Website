@@ -231,7 +231,6 @@
   #projects h1 {
       color: white;
     margin-top: 0;
-    text-align: center;
 }
 #projects h2 {
     color: white;
@@ -241,18 +240,96 @@
 
 
 
-#triviaSubHeading h1{
+#triviaSubHeading h1, #quotesSubHeading h1{
     text-align: left;
     margin-left: 1vw;
     margin-bottom: 0%;
-    
-    
+  
 }
 
-#triviaDiv{
+#triviaSubHeading a:link, #quotesSubHeading a:link {
+  text-align: center;
+  margin-left: 1vw;
+  margin-bottom: 0%;
+  font-size: 4vw;
+  border: 0px;
+  background-color:#cf112d;
+  
+}
+#triviaSubHeading a:visited, #quotesSubHeading a:visited {
+  text-align: center;
+  margin-left: 1vw;
+  margin-bottom: 0%;
+  font-size: 4vw;
+  border: 0px;
+  background-color:#cf112d;
+}
+
+#triviaSubHeading a:hover, #quotesSubHeading a:hover{
+  background-color:#cf112d;
+  color:  #28469E;
+
+
+}
+
+#triviaDiv,#quotesDiv{
     border: 3px solid black;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: left;
+    font-size: smaller;
+}
+
+#triviaDiv img, #quotesDiv img{
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+#triviaDiv a:link, #quotesDiv a:link {
+  text-align: left;
+  margin-left: 1vw;
+  margin-bottom: 0%;
+  font-size: 4vw;
+  border: 0px;
+  background-color:#28469E;
+  
+}
+
+#githubLink h1{
+    text-align: left;
     margin-left: 1vw;
-    margin-right: 1vw;
+    margin-bottom: 0%;
+  
+}
+
+#githubLink a:link  {
+  text-align: left;
+  margin-left: 1vw;
+  margin-bottom: 0%;
+  font-size: 4vw;
+  border: 0px;
+  background-color:#cf112d;
+  
+}
+#githubLink a:visited {
+  text-align: left;
+  margin-left: 1vw;
+  margin-bottom: 0%;
+  font-size: 4vw;
+  border: 0px;
+  background-color:#cf112d;
+}
+
+#githubLink a:hover{
+  background-color:#cf112d;
+  color:  #28469E;
+
+
+}
+
+#github img{
+  margin: 0;
 }
 
 #projectsSubHeading{
@@ -364,132 +441,16 @@ text-decoration: none;
   
   }
 
-}
-
-/* ipad display */
-@media only screen and (device-width: 768px) {
-  #text h1{
-    margin-left: 4vw;
-    margin-right: 4vw;
+  #triviaSubHeading h1{
     text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5vw;
-  }
-  .desktopOnly {
-    display: none;
-  }
-  .mobileOnly{
-    display: block
-  }
-  #mobileMyPicture img{
-    width:90%;
-    display: block;
-    margin:auto;
-    border: 5px solid black;
-  }
-  #header h1{
-    font-size:150%;
+    margin-left: 1vw;
     margin-bottom: 0%;
-  }
-
-  #text h1{
-    font-size: 150%;
-  }
-  #left,#right{
-
-    width: 45%;
-  }
-
-  a:link {
-    margin-bottom: 10%;
-    display: block;
-    color: white;
-    background-color: #28469E;
-    text-decoration: none;
-    font-size: 5vw;
-    border: 3px solid #28469E;
-    white-space: nowrap;
     
-  }
-  a:visited {
-    margin-bottom: 10%;
-    display: block;
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-    border: 3px solid #28469E;
-    font-size: 5vw;
-  }
 
-  a:hover{
-    background-color:#28469E;
-    border: 3px solid #28469E;
-  
-  
   }
+  
 }
 
 
-/* ipad pro display */
-@media only screen and (device-width: 1024px) {
-  #text h1{
-    margin-left: 4vw;
-    margin-right: 4vw;
-    text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 5vw;
-  }
-  .desktopOnly {
-    display: none;
-  }
-  .mobileOnly{
-    display: block
-  }
-  #mobileMyPicture img{
-    width:90%;
-    display: block;
-    margin:auto;
-    border: 5px solid black;
-  }
-  #header h1{
-    font-size:150%;
-    margin-bottom: 0%;
-  }
 
-  #text h1{
-    font-size: 150%;
-  }
-  #left,#right{
-
-    width: 45%;
-  }
-
-  a:link {
-    margin-bottom: 10%;
-    display: block;
-    color: white;
-    background-color: #28469E;
-    text-decoration: none;
-    font-size: 5vw;
-    border: 3px solid #28469E;
-    white-space: nowrap;
-    
-  }
-  a:visited {
-    margin-bottom: 10%;
-    display: block;
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-    border: 3px solid #28469E;
-    font-size: 5vw;
-  }
-
-  a:hover{
-    background-color:#28469E;
-    border: 3px solid #28469E;
-  
-  
-  }
-}
 
